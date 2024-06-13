@@ -1,0 +1,12 @@
+.array-container {
+   display: flex;
+   background-color: #03045e;
+   
+  }
+  
+.array-bar {
+    width: 4px;
+    display: inline-block;
+    margin: 0 1px;
+    background-color: aqua;
+}
