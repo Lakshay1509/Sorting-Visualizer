@@ -56,8 +56,8 @@ function partition(array, start, end, animations) {
             animations.push([i, j]);
             animations.push([i, j]);
             animations.push([i, array[j]]);
-            animations.push([j, i]);
-            animations.push([j, i]);
+            animations.push([i, j]);
+            animations.push([i, j]);
             animations.push([j, array[i]]);
             [array[i], array[j]] = [array[j], array[i]];
             i++;
